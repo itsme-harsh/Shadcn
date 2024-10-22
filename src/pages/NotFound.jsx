@@ -1,7 +1,7 @@
 // src/pages/NotFound.js
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Button } from '../components/ui/button'; // Adjust import according to your button component
+import { Button } from '@/components/ui/button'; // Adjust import according to your button component
 
 const NotFound = () => {
     const navigate = useNavigate();
